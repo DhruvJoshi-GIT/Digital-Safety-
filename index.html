@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Awareness for Common Citizens</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            font-weight: 700;
+            letter-spacing: -1px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        .content {
+            padding: 60px 40px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 60px;
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section-title {
+            font-size: 2em;
+            color: #667eea;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            font-weight: 600;
+        }
+
+        .card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+
+        .card h3 {
+            color: #2c3e50;
+            margin-bottom: 12px;
+            font-size: 1.3em;
+        }
+
+        .card p {
+            color: #555;
+            margin-bottom: 12px;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .warning-box strong {
+            color: #856404;
+        }
+
+        .tips-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .tips-list li {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #764ba2;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .tips-list li:hover {
+            box-shadow: 0 5px 15px rgba(118, 75, 162, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .tips-list li strong {
+            color: #764ba2;
+            font-size: 1.1em;
+        }
+
+        .icon {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 600;
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .footer h3 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        .footer p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .divider {
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #667eea, transparent);
+            margin: 40px 0;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 40px 25px;
+            }
+
+            .section-title {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ Digital Awareness for Common Citizens</h1>
+            <p>Stay Safe, Stay Informed in the Digital Age</p>
+        </div>
+
+        <div class="content">
+            <div class="intro">
+                In today's connected world, digital literacy is not just an advantage—it's a necessity. Understanding online threats and practicing cyber safety can protect you, your family, and your finances from harm. This guide provides essential knowledge every citizen needs to navigate the digital landscape safely.
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">🚨 Online Scams</h2>
+                
+                <div class="card">
+                    <h3>Phishing Attacks</h3>
+                    <p>Fraudulent emails or messages that appear to be from trusted sources, designed to steal your personal information, passwords, or financial details.</p>
+                    <p><strong>Example:</strong> An email claiming to be from your bank asking you to "verify your account" by clicking a link.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Online Shopping Scams</h3>
+                    <p>Fake e-commerce websites or social media ads offering products at unbelievably low prices. After payment, you never receive the product.</p>
+                    <p><strong>Red Flags:</strong> Too-good-to-be-true prices, no customer reviews, poor website design, no return policy.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Investment & Lottery Scams</h3>
+                    <p>Promises of high returns with little risk, or notifications that you've won a lottery you never entered. These require upfront payment or personal details.</p>
+                    <p><strong>Remember:</strong> If you didn't buy a ticket, you didn't win. Legitimate investments always carry disclosed risks.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Romance Scams</h3>
+                    <p>Scammers create fake profiles on dating apps or social media, build emotional relationships, then ask for money for emergencies.</p>
+                    <p><strong>Warning Sign:</strong> They profess love quickly, avoid meeting in person, and eventually ask for financial help.</p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="section">
+                <h2 class="section-title">📱 Fake Calls & Messages</h2>
+
+                <div class="card">
+                    <h3>Impersonation Calls</h3>
+                    <p>Fraudsters pose as bank officials, government authorities, or tech support claiming there's an issue with your account or device.</p>
+                    <p><strong>Common Tactics:</strong> Creating urgency, threatening legal action, or offering refunds to extract information.</p>
+                </div>
+
+                <div class="card">
+                    <h3>OTP Scams</h3>
+                    <p>Callers claim to be from your bank and ask you to share the OTP (One-Time Password) sent to your phone "for verification purposes."</p>
+                    <div class="warning-box">
+                        <strong>⚠️ Critical Rule:</strong> NEVER share your OTP with anyone. Banks never ask for OTPs over calls.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>WhatsApp & SMS Scams</h3>
+                    <p>Messages from unknown numbers claiming to be family members in distress, lottery wins, or links to "urgent videos" that install malware.</p>
+                    <p><strong>Action:</strong> Verify independently before responding. Don't click suspicious links.</p>
+                </div>
+
+                <div class="card">
+                    <h3>KYC Update Scams</h3>
+                    <p>Messages or calls stating your KYC (Know Your Customer) details need immediate updating, directing you to fake websites to steal your information.</p>
+                    <p><strong>Fact:</strong> Banks notify KYC updates through official apps and never ask for complete details via links.</p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="section">
+                <h2 class="section-title">🔐 Cyber Safety Tips</h2>
+
+                <ul class="tips-list">
+                    <li>
+                        <strong>Use Strong, Unique Passwords:</strong> Create passwords with a mix of uppercase, lowercase, numbers, and symbols. Avoid using the same password across multiple sites. Consider using a password manager.
+                    </li>
+                    <li>
+                        <strong>Enable Two-Factor Authentication (2FA):</strong> Add an extra layer of security to your accounts. Even if someone gets your password, they can't access your account without the second factor.
+                    </li>
+                    <li>
+                        <strong>Keep Software Updated:</strong> Regularly update your operating system, apps, and antivirus software. Updates often include security patches for vulnerabilities.
+                    </li>
+                    <li>
+                        <strong>Be Cautious with Public Wi-Fi:</strong> Avoid accessing banking or sensitive information on public networks. If necessary, use a VPN (Virtual Private Network) for encryption.
+                    </li>
+                    <li>
+                        <strong>Verify Before You Click:</strong> Hover over links to see the actual URL before clicking. Be suspicious of shortened URLs or links from unknown sources.
+                    </li>
+                    <li>
+                        <strong>Think Before You Share:</strong> Be mindful of what you post on social media. Oversharing personal details can make you vulnerable to identity theft and targeted scams.
+                    </li>
+                    <li>
+                        <strong>Secure Your Devices:</strong> Use screen locks, biometric authentication, and enable remote wipe features in case your device is lost or stolen.
+                    </li>
+                    <li>
+                        <strong>Regular Backups:</strong> Back up important data regularly to external drives or cloud storage to protect against ransomware and data loss.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="section">
+                <h2 class="section-title">🔒 Protecting Personal Data</h2>
+
+                <div class="card">
+                    <h3>What is Personal Data?</h3>
+                    <p>Any information that can identify you: name, address, phone number, email, Aadhaar number, PAN, bank details, photos, IP address, and more.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Limit Data Sharing</h3>
+                    <p>Share personal information only when absolutely necessary. Question why an app or service needs specific permissions or data.</p>
+                    <p><strong>Example:</strong> Does a flashlight app really need access to your contacts and location?</p>
+                </div>
+
+                <div class="card">
+                    <h3>Review Privacy Settings</h3>
+                    <p>Regularly check privacy settings on social media, apps, and online accounts. Limit who can see your posts and personal information.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Be Careful with App Permissions</h3>
+                    <p>When installing apps, review the permissions they request. Deny unnecessary permissions like camera, microphone, or location access if not essential to the app's function.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Secure Your Documents</h3>
+                    <p>Never share photos of your Aadhaar, PAN, passport, or other identity documents on public platforms or with unverified sources. Use password-protected PDFs when sharing digitally.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Monitor Your Accounts</h3>
+                    <p>Regularly check bank statements and credit reports for suspicious activity. Set up alerts for transactions above certain amounts.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Dispose Data Securely</h3>
+                    <p>Before selling or discarding devices, perform a factory reset and ensure all personal data is completely erased. Delete old accounts you no longer use.</p>
+                </div>
+
+                <div class="warning-box">
+                    <strong>🚩 Report Cybercrime:</strong> If you fall victim to a scam, report it immediately to the National Cyber Crime Reporting Portal at <strong>cybercrime.gov.in</strong> or call the helpline <strong>1930</strong>.
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div style="text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 15px; margin-top: 40px;">
+                <h3 style="color: #2c3e50; margin-bottom: 15px; font-size: 1.5em;">Remember</h3>
+                <p style="color: #555; font-size: 1.1em; max-width: 700px; margin: 0 auto;">
+                    <span class="highlight">Digital awareness is your first line of defense.</span> Stay informed, stay cautious, and think twice before sharing information or clicking links. When in doubt, verify through official channels. Your digital safety is in your hands.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3>Dhruv Joshi</h3>
+            <p>Government Engineering College, Raipur</p>
+        </div>
+    </div>
+</body>
+</html>
